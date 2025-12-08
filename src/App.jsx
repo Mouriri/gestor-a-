@@ -21,6 +21,8 @@ const ScrollToTop = () => {
   return null;
 };
 
+import WhatsAppButton from './components/WhatsAppButton';
+
 const AppContent = () => {
   return (
     <div className="flex flex-col min-h-screen">
@@ -37,6 +39,7 @@ const AppContent = () => {
         </Routes>
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
