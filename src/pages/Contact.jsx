@@ -50,8 +50,17 @@ const Contact = () => {
                         </div>
 
                         {/* Map Placeholder */}
-                        <div className="bg-gray-200 h-64 rounded-2xl flex items-center justify-center text-gray-500 overflow-hidden shadow-inner">
-                            <span className="flex items-center gap-2"><MapPin /> Mapa de Google Maps</span>
+                        {/* Map */}
+                        <div className="rounded-2xl overflow-hidden shadow-sm border border-gray-100 h-80">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d11161.943696518038!2d-1.8415882000000003!3d42.624382999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0xd6a09d451ddd15d%3A0x95e83a91f02bbf0a!2sC.%20R%C3%ADo%20Valdemar%C3%ADas%2C%202%2C%2045007%20Toledo!3m2!1d39.8655506!2d-3.9564754!5e1!3m2!1sfr!2ses!4v1765236561814!5m2!1sfr!2ses"
+                                width="100%"
+                                height="100%"
+                                style={{ border: 0 }}
+                                allowFullScreen=""
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                            ></iframe>
                         </div>
                     </div>
 
