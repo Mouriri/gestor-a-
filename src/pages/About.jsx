@@ -22,7 +22,7 @@ const About = () => {
                         </p>
 
                         <div className="flex items-center gap-4 bg-primary/5 p-4 rounded-xl border border-primary/10 mt-8 not-prose">
-                            <img src="/logo-colegio.png" alt="Colegio Oficial de Gestores" className="h-16 w-auto object-contain filter grayscale opacity-80" />
+                            <img src="/logo-gestores-oa.png" alt="Colegio Oficial de Gestores" className="h-20 w-auto object-contain" />
                             <div>
                                 <h4 className="font-bold text-primary text-lg leading-tight">Miembro del Colegio Oficial de Gestores Administrativos</h4>
                                 <p className="text-sm text-gray-500">Garantía de profesionalidad, ética y confianza.</p>
