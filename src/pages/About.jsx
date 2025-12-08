@@ -20,6 +20,14 @@ const About = () => {
                         <p>
                             Nuestro equipo multidisciplinar está formado por gestores administrativos, abogados y expertos en extranjería con más de 15 años de experiencia en el sector. Nos mantenemos constantemente actualizados sobre las últimas normativas y cambios legislativos para garantizar el éxito de sus expedientes.
                         </p>
+
+                        <div className="flex items-center gap-4 bg-primary/5 p-4 rounded-xl border border-primary/10 mt-8 not-prose">
+                            <img src="/logo-colegio.png" alt="Colegio Oficial de Gestores" className="h-16 w-auto object-contain filter grayscale opacity-80" />
+                            <div>
+                                <h4 className="font-bold text-primary text-lg leading-tight">Miembro del Colegio Oficial de Gestores Administrativos</h4>
+                                <p className="text-sm text-gray-500">Garantía de profesionalidad, ética y confianza.</p>
+                            </div>
+                        </div>
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-8 mt-16">
