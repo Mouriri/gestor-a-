@@ -28,6 +28,16 @@ const Home = () => {
                                 {t.home.cta_services}
                             </Link>
                         </div>
+
+                        {/* Trust Badge / Logo */}
+                        <div className="mt-10 flex items-center gap-4 animate-fade-in opacity-90">
+                            <div className="bg-white/10 backdrop-blur-sm p-2 rounded-lg border border-white/20 inline-block">
+                                <img src="/logo-colegio.png" alt="Colegio Oficial de Gestores" className="h-12 w-auto object-contain brightness-0 invert opacity-90" />
+                            </div>
+                            <span className="text-gray-400 text-sm max-w-[150px] leading-tight border-l border-gray-600 pl-4">
+                                Miembro del Colegio Oficial de Gestores Administrativos
+                            </span>
+                        </div>
                     </div>
                     {/* Abstract Visual or Image Placeholder */}
                     <div className="relative hidden md:block">

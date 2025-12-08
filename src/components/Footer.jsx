@@ -14,7 +14,11 @@ const Footer = () => {
                             <span className="bg-secondary text-primary font-bold w-6 h-6 flex items-center justify-center rounded text-sm">G</span>
                             Gestoría Mohammed El Ali Haddada
                         </h3>
-                        <p className="text-gray-400 text-sm leading-relaxed max-w-xs">{t.about.desc}</p>
+                        <p className="text-gray-400 text-sm leading-relaxed max-w-xs mb-6">{t.about.desc}</p>
+                        <div className="flex items-center gap-3 opacity-70 hover:opacity-100 transition-opacity">
+                            <span className="text-xs text-gray-500 uppercase tracking-widest border-r border-gray-600 pr-3">Colegiado</span>
+                            <img src="/logo-colegio.png" alt="Logo Colegio" className="h-8 w-auto brightness-0 invert" />
+                        </div>
                     </div>
                     <div>
                         <h4 className="text-lg font-semibold mb-4 text-secondary">{t.nav.services}</h4>
