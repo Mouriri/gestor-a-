@@ -12,7 +12,7 @@ const Footer = () => {
                     <div>
                         <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
                             <span className="bg-secondary text-primary font-bold w-6 h-6 flex items-center justify-center rounded text-sm">G</span>
-                            GESTORÍA PRO
+                            Gestoría Mohammed El Ali Haddada
                         </h3>
                         <p className="text-gray-400 text-sm leading-relaxed max-w-xs">{t.about.desc}</p>
                     </div>
@@ -35,7 +35,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="border-t border-gray-800 pt-6 text-center text-sm text-gray-500">
-                    &copy; {currentYear} Gestoría Pro. All rights reserved.
+                    &copy; {currentYear} Gestoría Mohammed El Ali Haddada. All rights reserved.
                 </div>
             </div>
         </footer>

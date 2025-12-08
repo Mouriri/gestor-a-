@@ -24,9 +24,12 @@ const Navbar = () => {
             <div className="container mx-auto px-4">
                 <div className="flex justify-between items-center h-20">
                     {/* Logo */}
-                    <Link to="/" className="text-2xl font-bold text-primary flex items-center gap-2">
-                        <span className="bg-secondary text-white w-8 h-8 flex items-center justify-center rounded">G</span>
-                        GESTORÍA PRO
+                    <Link to="/" className="text-xl font-bold text-primary flex items-center gap-2">
+                        <span className="bg-secondary text-white w-10 h-10 flex items-center justify-center rounded text-lg shrink-0">G</span>
+                        <div className="flex flex-col leading-tight">
+                            <span>Gestoría y Abogados</span>
+                            <span className="text-sm font-normal text-gray-600">Mohammed El Ali Haddada</span>
+                        </div>
                     </Link>
 
                     {/* Desktop Menu */}

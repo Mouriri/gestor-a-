@@ -34,8 +34,8 @@ export const translations = {
         },
         contact: {
             title: "Contáctanos",
-            address: "Calle Ejemplo 123, Madrid",
-            phone: "+34 600 000 000",
+            address: "C. Río Valdemarías, 2, 45007 Toledo",
+            phone: "925 71 27 06",
             email: "info@gestoria.com"
         }
     },
@@ -74,8 +74,8 @@ export const translations = {
         },
         contact: {
             title: "Contactez-nous",
-            address: "Rue Exemple 123, Madrid",
-            phone: "+34 600 000 000",
+            address: "C. Río Valdemarías, 2, 45007 Tolède",
+            phone: "925 71 27 06",
             email: "info@gestoria.com"
         }
     },
@@ -114,8 +114,8 @@ export const translations = {
         },
         contact: {
             title: "اتصل بنا",
-            address: "شارع مثال 123، مدريد",
-            phone: "+34 600 000 000",
+            address: "شارع ريو فالديمارياس، 2، 45007 طليطلة",
+            phone: "925 71 27 06",
             email: "info@gestoria.com"
         }
     }

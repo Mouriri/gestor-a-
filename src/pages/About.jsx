@@ -15,7 +15,7 @@ const About = () => {
                             {t.about.desc}
                         </p>
                         <p>
-                            En <strong>Gestoría Pro</strong>, entendemos que detrás de cada trámite hay una persona, una familia o un proyecto de vida. Por eso, no solo gestionamos papeles; ofrecemos soluciones reales y personalizadas.
+                            En <strong>Gestoría Mohammed El Ali Haddada</strong>, entendemos que detrás de cada trámite hay una persona, una familia o un proyecto de vida. Por eso, no solo gestionamos papeles; ofrecemos soluciones reales y personalizadas.
                         </p>
                         <p>
                             Nuestro equipo multidisciplinar está formado por gestores administrativos, abogados y expertos en extranjería con más de 15 años de experiencia en el sector. Nos mantenemos constantemente actualizados sobre las últimas normativas y cambios legislativos para garantizar el éxito de sus expedientes.
