@@ -38,8 +38,13 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="border-t border-gray-800 pt-6 text-center text-sm text-gray-500">
-                    &copy; {currentYear} Gestoría Mohammed El Ali Haddada. All rights reserved.
+                <div className="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+                    <div>
+                        &copy; {currentYear} Gestoría Mohammed El Ali Haddada. Todos los derechos reservados.
+                    </div>
+                    <div>
+                        Diseño y desarrollo web por <a href="https://mendigital.es" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-white transition-colors">Mendigital.es</a>
+                    </div>
                 </div>
             </div>
         </footer>
